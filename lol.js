@@ -45,6 +45,46 @@ else{
 //EWW AVENGERS
 var hero = "Irunman"
 
-function avengersAssemble (hi){
-	if(hi == )
+function avengersAssemble (avenger){
+	if(avenger == "Ironman"){
+		console.log("Sorry, you are not needed for this mission");
+	}
+	else if (avenger == "KAPiTAN murica"){
+		console.log("Sorry, you are not needed for this mission");
+	}
+	else if (avenger == "blackwindow"){
+		console.log("Sorry, you are not needed for this mission");
+	}
+	else {
+		console.log("I am a man with a very particular set of skills. I will find you; And I will kill you.")
+	}
+}
+avengersAssemble(Irunman)
+
+// LIGHTS OUT SPOOOOPPYY~~~
+var lights = true
+
+if (lights = true){
+	console.log("And then were was light")
+}
+else {
+	console.log("Lights out. Sucks for you.")
+}
+
+var carType = "Toyota"
+var color = "blue"
+var num = 1969
+
+if (carType = Lamborghini && color = red) {
+	console.log("We have " + carType + color + num);
+}
+else if (carType = Toyota && color = blue){
+	console.log("We have " + carType + color + num);
+}
+
+else if (carType = Tesla && color = black){
+	console.log("We have " + carType + color + num);
+}
+else {
+ console.log("We don't have any blue Toyotas in stock");
 }
