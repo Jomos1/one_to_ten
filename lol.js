@@ -5,9 +5,9 @@ var weapon = "Boomstick McBoom"
 var pronoun = null
 var xp = null
 
-if (gender === "male"){
+if (gender == "male"){
 	pronoun = "his";
-} else if (gender === "female"){
+} else if (gender == "Female"){
 	pronoun = "her";
 } else{
 	pronoun = "their";
@@ -22,7 +22,7 @@ else if (age > 21 && age < 40){
 else (age > 40);{
 	xp = "has lived through many epic battles";
 }
-console.log(hero + " is our lovable hero, who " + xp + " with " + pronoun +"  trusty " + weapon);
+console.log(hero + " is our lovable hero, who " + xp + " with " + pronoun +" trusty " + weapon);
 
 //1 Fish 2 Fish
 var count;
