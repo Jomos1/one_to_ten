@@ -59,12 +59,12 @@ function avengersAssemble (avenger){
 		console.log("I am a man with a very particular set of skills. I will find you; And I will kill you.")
 	}
 }
-avengersAssemble(Irunman)
+avengersAssemble(hero)
 
 // LIGHTS OUT SPOOOOPPYY~~~
 var lights = true
 
-if (lights = true){
+if (lights == true){
 	console.log("And then were was light");
 }
 else {
@@ -72,20 +72,20 @@ else {
 }
 
 //VROOM VROOM BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
-var carType = "Toyota"
-var color = "blue"
-var num = 1969
+var carType = "Lamborghini";
+var color = "blue";
+var num = 1969;
 
-if (carType = Lamborghini && color = red) {
-	console.log("We have " + carType + color + num);
-}
-else if (carType = Toyota && color = blue){
-	console.log("We have " + carType + color + num);
-}
+	if (carType == "Lamborghini" && color == "red") {
+      console.log("We have " + carType + color + num);
+	}
+	else if (carType == "Toyota" && color == "blue"){
+      console.log("We have " + carType + color + num);
+	}
 
-else if (carType = Tesla && color = black){
-	console.log("We have " + carType + color + num);
-}
-else {
- console.log("We don't have any blue Toyotas in stock");
-}
+	else if (carType == "Tesla" && color == "black"){
+      console.log("We have " + carType + color + num);
+	}
+     else {
+      console.log("We don't have any blue Toyotas in stock");
+ }
