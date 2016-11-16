@@ -62,7 +62,7 @@ function avengersAssemble (avenger){
 avengersAssemble(hero)
 
 // LIGHTS OUT SPOOOOPPYY~~~
-var lights = true
+var lights = false
 
 if (lights == true){
 	console.log("And then were was light");
