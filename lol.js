@@ -22,7 +22,7 @@ else if (age > 21 && age < 40){
 else (age > 40);{
 	xp = "has lived through many epic battles";
 }
-console.log(hero + " is our lovable hero, who " + xp + " with his trusty " + weapon);
+console.log(hero + " is our lovable hero, who " + xp + " with " + pronoun +"  trusty " + weapon);
 
 //1 Fish 2 Fish
 var count;
@@ -65,12 +65,13 @@ avengersAssemble(Irunman)
 var lights = true
 
 if (lights = true){
-	console.log("And then were was light")
+	console.log("And then were was light");
 }
 else {
-	console.log("Lights out. Sucks for you.")
+	console.log("Lights out. Sucks for you.");
 }
 
+//VROOM VROOM BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
 var carType = "Toyota"
 var color = "blue"
 var num = 1969
